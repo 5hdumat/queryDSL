@@ -1072,7 +1072,7 @@ public class QuerydslBasicTest {
      * QueryDSL은 기본적으로 ANSI 표준으로 등록되어있는 기능들은 모두 내장하고 있다.
      */
     @Test
-    public void sqlFucntion2() throws Exception {
+    public void sqlFunctionV2() throws Exception {
         //given
         List<String> result = queryFactory
                 .select(member.username)
